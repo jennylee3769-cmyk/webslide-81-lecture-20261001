@@ -1,0 +1,17 @@
+/* 학생용 오로라 색상. 기존 레이아웃과 스크립트 유지. */
+:root{--ink:#182039;--sub:#4d5670;--paper:#fff;--bg:#f0f1fb;--canvas:#f0f1fb;--soft:#ebeafa;--accent:#f0f1fb;--accent-ink:#182039}
+@media(prefers-color-scheme:dark){:root{--ink:#182039;--sub:#4d5670;--paper:#fff;--bg:#f0f1fb;--canvas:#f0f1fb;--soft:#ebeafa;--accent:#f0f1fb;--accent-ink:#182039}}
+body{background:#edf0fa;color:#182039}
+.hero,.slide{background:radial-gradient(ellipse at 0% 0%,#b0e9e5 0%,transparent 52%),radial-gradient(ellipse at 100% 10%,#d6c0f3 0%,transparent 56%),radial-gradient(ellipse at 80% 100%,#f4d1e6 0%,transparent 55%),#f0f1fb}
+.hero{border-bottom:0}.hero .lead{color:#444e6b}.hero .meta span,.meta-row span{border-color:#9d9fbd;background:#ffffff73;color:#25304f}
+.btn.primary,.pbtn,.practice-copy,.practice-downloads a{background:#403783;color:#fff;border-color:#403783}.btn.primary:hover{background:#322c6c}
+.btn.ghost,.pbtn.ghost{color:#403783;border-color:#7062a7;background:#ffffff9c}
+.card,.entry,.pitem,.profile,.practice-card,.resource-card{background:#ffffffed;box-shadow:0 8px 25px #392e6c12}
+.hero h1::after{background:#7964d4}.sec-kicker,.practice-kicker,.kicker{color:#5946a0}
+.slide.title-slide{background:radial-gradient(ellipse at 10% 20%,#96e0d9 0%,transparent 52%),radial-gradient(ellipse at 90% 15%,#bfa1ef 0%,transparent 56%),radial-gradient(ellipse at 75% 90%,#f0b7d6 0%,transparent 55%),#ebebfc}
+.slide.dark{background:radial-gradient(ellipse at 0% 0%,#245966 0%,transparent 60%),radial-gradient(ellipse at 100% 100%,#594276 0%,transparent 60%),#11182f;color:#fff}
+.dark .kicker{color:#e5defc}.dark .activity{background:#ffffff12;color:#fff}.plain-list{color:#e0e4f4}
+.points li{border-left-color:#7964d4}.activity{background:#ffffffa3;color:#25304f}.prompt-box{background:#19213a}.prompt-head{color:#d5d9ea}
+#nav{background:#151c35}#nav button,#nav a{background:#29314f;border-color:#515a79}#progress{background:#b7a3eb}
+.practice,.resources{background:transparent}.practice-card,.resource-card{border-color:#d8d8ed}.resource-card:hover{background:#f7f3ff;border-color:#7964d4}
+@media print{body{background:#fff}.slide{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
