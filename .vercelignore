@@ -11,3 +11,4 @@ index-script-check.js
 slides-script-check.mjs
 firebase/*초안*.md
 .vercel/
+.env*
