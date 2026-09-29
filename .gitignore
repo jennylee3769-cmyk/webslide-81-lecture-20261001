@@ -13,3 +13,4 @@ firebase/*초안*.md
 .vercel/
 .vercel
 .env*
+.vercelignore-before-*
