@@ -14,3 +14,6 @@ firebase/*초안*.md
 .vercel
 .env*
 .vercelignore-before-*
+firebase/*-before-*.js
+firebase/*-before-*.md
+firebase/adapt-slides-*.py
