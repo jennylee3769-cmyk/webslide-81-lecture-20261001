@@ -1,0 +1,13 @@
+# Local source references and retained work versions
+1교시 강의/
+2교시 강의/
+3교시 강의/
+4교시강의/
+5교시 강의/
+webslide-starter-kit-zip/
+*-draft-*.html
+*-before-*.html
+index-script-check.js
+slides-script-check.mjs
+firebase/*초안*.md
+.vercel/
