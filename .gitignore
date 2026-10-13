@@ -20,3 +20,8 @@ firebase/adapt-slides-*.py
 admin-local-mock-*.html
 README-before-*.md
 admin-aurora-*.html
+qa-focus-*/
+assets/pinky-original-*.png
+*.before-focus-*
+add-focus-feature-*.py
+focus-script-*.mjs
